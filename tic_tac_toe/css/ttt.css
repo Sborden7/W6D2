@@ -1,0 +1,47 @@
+body h1{
+  text-align: center;
+  color: darkblue;
+}
+
+.grid{
+  width: 500px;
+  margin: 0 auto;
+}
+
+.square{
+  list-style: none;
+  width: 150px;
+  height: 150px;
+  background-color: magenta;
+  float: left;
+  border: 2px solid orange;
+  border-radius: 5px;
+}
+
+.x-square {
+  list-style: none;
+  width: 150px;
+  height: 150px;
+  background-color: pink;
+  float: left;
+  border: 2px solid orange;
+  border-radius: 5px;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.o-square {
+  list-style: none;
+  width: 150px;
+  height: 150px;
+  background-color: pink;
+  float: left;
+  border: 2px solid orange;
+  border-radius: 5px;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.square:hover {
+  background-color: purple;
+}
