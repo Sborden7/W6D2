@@ -25,7 +25,7 @@ h1 {
   flex-direction: column;
   justify-content: flex-end;
   margin-left: 20px;
-  /*position: relative;*/
+  position: relative;
 }
 
 .tower-2 {
@@ -40,7 +40,7 @@ h1 {
   border-bottom: 10px solid navy;
   flex-direction: column;
   justify-content: flex-end;
-  /*position: relative;*/
+  position: relative;
 }
 
 .tower-3 {
@@ -55,7 +55,7 @@ h1 {
   border-bottom: 10px solid navy;
   flex-direction: column;
   justify-content: flex-end;
-  /*position: relative;*/
+  position: relative;
 }
 
 ul:hover {
@@ -78,6 +78,7 @@ ul:hover {
   background-color: yellow;
   margin: 0 auto;
   border: 2px solid #990000;
+  z-index: 2;
 }
 
 .disc-2 {
@@ -87,6 +88,7 @@ ul:hover {
   background-color: orange;
   margin: 0 auto;
   border: 2px solid #990000;
+  z-index: 2;
 }
 
 .disc-3 {
@@ -96,4 +98,17 @@ ul:hover {
   background-color: red;
   margin: 0 auto;
   border: 2px solid #990000;
+  z-index: 2;
+}
+
+.stick {
+  width: 10px;
+  height: 75%;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  background-color: #663300;
+  margin: 0 auto;
+  border: 2px solid black;
+  position: absolute;
+  left: 95px;
 }

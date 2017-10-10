@@ -178,11 +178,16 @@ class View{
     $("ul").empty();
 
     for (var i = 0; i < this.game.towers.length; i++) {
+      let stick = $("<li>");
+      stick.addClass("stick");
+      $(`.tower-${i+1}`).append(stick);
+      
       for (var j = this.game.towers[i].length - 1; j >= 0; j--) {
         let disc = $("<li>");
         disc.addClass(`disc-${this.game.towers[i][j]}`);
         $(`.tower-${i+1}`).append(disc);
       }
+
     }
   }
 
